@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Ação</title>
+    <link rel="stylesheet" href="css/style-pags.css">
+    <script src="js/main.js"></script>
+</head>
+<!--BARRA DE NAVEGAÇÃO COM O SELECT-->
+<nav>
+    Selecione uma categoria de filmes: 
+    <select name="opçoes" id="opçoes" onchange="minhaFuncao(this.value)">
+        <option selected disabled >Selecione</option>
+        <option>Terror</option>
+        <option>Comédia</option>
+        <option>Ação</option>
+        <option>Drama</option>
+        <option>Romance</option>
+        <option>Aventura</option>
+        <option>Infantil</option>
+    </select>
+</nav>
+<!--CAPAS DO FILMES-->
+<body>
+    <h1>Filmes de Ação</h1>
+    <hr>
+    <p>Melhores filmes da categoria Ação:</p>
+    <div class="center">
+        <div class="capas">
+            <a href="#avengers"><img src="midias/acao/avengers.jpg" alt="Vingadores: Ultimato"></a>
+            <a href="#god-vs-kong"><img src="midias/acao/godkog.jpg" alt="Godzila Vs Kong"></a>
+            <a href="#dbs-broly"><img src="midias/acao/dbsbroly.jpg" alt="Dragon Ball Super: Broly"></a>
+            <a href="#f9"><img src="midias/acao/F9.jpg" alt="Velozes e Furiosos 9"></a>
+            <a href="#spiderman"><img src="midias/acao/spiderman.jpg" alt="Homem-Aranha: Longe de Casa"></a>
+            <a href="#monster-hunter"><img src="midias/acao/monsterunter.jpg" alt="Monster Hunter"></a>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!--INICÍO DAS INFORMAÇÕES DOS FILMES-->
+    <div class="box-infos1" id="avengers">
+        <p id="titulo">Vingadores: Ultimato</p>
+        <div class="center">
+            <img src="midias/acao/img-avengers.jpg" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g6ng8iy-l0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="god-vs-kong">
+        <p id="titulo">Godzila vs Kong</p>
+        <div class="center">
+            <img src="midias/acao/img-gvk.jpg" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aJMfEz2cobI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Jia, uma garota órfã que tem um vínculo único e poderoso com a poderosa besta, acompanha a aventura. No entanto, eles logo se encontram no caminho de Godzilla, completamente enfurecido, deixando um rastro de destruição em todo o mundo. O confronto inicial entre os dois titãs, instigado por forças misteriosas, é apenas o começo do enigma que reside nas profundezas do planeta.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="dbs-broly">
+        <p id="titulo">Dragon Ball Super: Broly</p>
+        <div class="center">
+            <img src="midias/acao/img-dbs.jpg" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_K91eeP25NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Apesar da Terra estar em um período de calmaria, Goku se recusa a parar de treinar constantemente. O que ele não imaginava era que seu novo inimigo seria Broly, um poderoso super saiyajin sedento por vingança, que deseja destruir todos que encontrar pela frente.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="f9">
+        <p id="titulo">Velozes e Furiosos 9</p>
+        <div class="center">
+            <img src="midias/acao/img-f9.jpg" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NnDGWyfP7q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Dominic Toretto e Letty vivem uma vida pacata ao lado do filho. Mas eles logo são ameaçados pelo passado de Dom: seu irmão desaparecido Jakob, que retorna e está trabalhando ao lado de Cipher. Cabe a Dom reunir a equipe novamente para enfrentá-los.
+        </p>
+    </div>
+    <br>
+    <div class="box-infos1" id="spiderman">
+        <p id="titulo">Homem-Aranha: Longe de Casa</p>
+        <div class="center">
+            <img src="midias/acao/img-spider.jpg" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MqQdHaBtvGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="monster-hunter">
+        <p id="titulo">Monster Hunter</p>
+        <div class="center">
+            <img src="midias/acao/img-monster.jpg" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8UUcif71zg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">A tenente Artemis e seus leais soldados são transportados para um novo mundo, dominado por monstros perigosos. Em uma batalha desesperada pela sobrevivência contra inimigos formidáveis, Artemis se une a um homem misterioso.</p>
+    </div>
+    <br><br><br>
+    <div class="center">
+        &copy; Talia
+    </div>
+    <br><br><br>
+</body>
+</html>

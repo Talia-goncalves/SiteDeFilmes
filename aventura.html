@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Aventura</title>
+    <link rel="stylesheet" href="css/style-pags.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!--BARRA DE NAVEGAÇÃO COM O SELECT-->
+    <nav>
+        Selecione uma categoria de filmes: 
+        <select name="opçoes" id="opçoes" onchange="minhaFuncao(this.value)">
+            <option selected disabled >Selecione</option>
+            <option>Terror</option>
+            <option>Comédia</option>
+            <option>Ação</option>
+            <option>Drama</option>
+            <option>Romance</option>
+            <option>Aventura</option>
+            <option>Infantil</option>
+        </select>
+    </nav>
+    <!--CAPAS DO FILMES-->
+    <div class="box1">
+        <h1>Filmes de Aventura</h1>   
+        <hr>
+        <p>Melhores filmes da categoria Aventura:</p>
+        <div class="center">
+            <div class="capas">
+                <a href="#encanto"><img src="midias/aventura/encanto.png" alt="Encanto"></a>
+                <a href="#maravilha"><img src="midias/aventura/maravilha.png" alt="Mulher Maravilha"></a>
+                <a href="#torrenegra"><img src="midias/aventura/torrenegra.png" alt="A Torre Negra"></a>
+                <a href="#cavaleiros"><img src="midias/aventura/cavaleiros.png" alt="Os Últimos Cavaleiros"></a>
+                <a href="#viuvanegra"><img src="midias/aventura/viuvanegra.png" alt="Viúva Negra"></a>
+                <a href="#meninaleao"><img src="midias/aventura/meninaleao.png" alt="A Menina e o Leão"></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!--INICÍO DAS INFORMAÇÕES DOS FILMES-->
+    <div class="box-infos1" id="encanto">
+        <p id="titulo">Encanto</p>
+        <div class="center">
+            <img src="midias/aventura/encantogr.png" alt="" class="img-infos">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/zRMicKd9IH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse"> Encanto é a nova animação da Disney situada na Colômbia, sobre a extraordinária família Madrigal, que vive escondida em uma região montanhosa isolada, conhecido como Encanto. A magia da região abençoou todos os meninos e meninas membros da família com poderes mágicos, desde superforça até o dom da cura. Mirabel é a única que não tem um dom mágico. Mas, quando descobre que a magia que cerca o Encanto está em perigo, ela decide que pode ser a última esperança de sua família excepcional.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="maravilha">
+        <p id="titulo">Mulher Maravilha</p>
+        <div class="center">
+            <img src="midias/aventura/maravilhagr.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bldAkEUANWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. Quando o piloto Steve Trevor sofre um acidente e cai em uma praia do local, ela descobre que uma guerra sem precedentes está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o conflito. Lutando para acabar com a guerra, Diana percebe o alcance de seus poderes e sua verdadeira missão na Terra.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="torrenegra">
+        <p id="titulo">A Torrre Negra</p>
+        <div class="center">
+            <img src="midias/aventura/torrenegragr.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/R6Nz-CIEq9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">O pistoleiro Roland Deschain percorre o mundo em busca da famosa Torre Negra, prédio mágico que está prestes a desaparecer. Essa busca envolve uma intensa perseguição ao poderoso Homem de Preto, passagens entre tempos diferentes, encontros intensos e confusões entre o real e o imaginário. Baseado na obra literária homônima de Stephen King.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="cavaleiros">
+        <p id="titulo">Os Últimos Cavaleiros</p>
+        <div class="center">
+            <img src="midias/aventura/cavaleirosgr.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/djeypY45YmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Raiden é um guerreiro caído que deve enfrentar um corrupto e sádico governante para vingar seu mestre desonrado, Bartok.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="viuvanegra">
+        <p id="titulo">Viúva Negra</p>
+        <div class="center">
+            <img src="midias/aventura/viuvanegragr.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lk7LPTq0_XY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Em Viúva Negra, acompanhamos a vida de Natasha Romanoff (Scarlett Johansson) após os eventos de Guerra Civil. Se escondendo do governo norte-americano devido a sua aliança com o time do Capitão América, Natasha ainda precisa confrontar partes de sua história quando surge uma conspiração perigosa ligada ao seu passado. Perseguida por uma força que não irá parar até derrotá-la, ela terá que lidar com sua antiga vida de espiã, e também reencontrar membros de sua família que deixou para trás antes de se tornar parte dos Vingadores.
+</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="meninaleao">
+        <p id="titulo">A menina e o leão</p>
+        <div class="center">
+            <img src="midias/aventura/meninaleaogr.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XaDaO-N4RRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Mia é uma jovem de 14 anos que sempre teve uma profunda amizade com Charlie, um leão branco da fazenda de sua família. Um dia, seu pai decide vender o felino para caçadores de troféus e ela não vê outra opção além de fugir com Charlie para salvá-lo.</p>
+    </div>
+    <br><br><br>
+    <div class="center">
+        &copy; Talia
+    </div>
+    <br><br><br>
+</body>
+</html>

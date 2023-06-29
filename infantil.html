@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes Infantis</title>
+    <link rel="stylesheet" href="css/style-pags.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!--BARRA DE NAVEGAÇÃO COM O SELECT-->
+    <nav>
+        Selecione uma categoria de filmes: 
+        <select name="opçoes" id="opçoes" onchange="minhaFuncao(this.value)">
+            <option selected disabled >Selecione</option>
+            <option>Terror</option>
+            <option>Comédia</option>
+            <option>Ação</option>
+            <option>Drama</option>
+            <option>Romance</option>
+            <option>Aventura</option>
+            <option>Infantil</option>
+        </select>
+    </nav>
+    <!--CAPAS DO FILMES-->
+    <div class="box1">
+        <h1>Filmes Infantis</h1>   
+        <hr>
+        <p>Melhores filmes da categoria Infantil:</p>
+        <div class="center">
+            <div class="capas">
+                <a href="#detona"><img src="midias/infantil/detona.png" alt="Detona Ralph"></a>
+                <a href="#divertida"><img src="midias/infantil/divertida.png" alt="Divertida Mente"></a>
+                <a href="#frozen"><img src="midias/infantil/frozen.png" alt="Frozen"></a>
+                <a href="#rei"><img src="midias/infantil/rei.png" alt="Rei Leão"></a>
+                <a href="#shrek"><img src="midias/infantil/shrek.png" alt="Shrek"></a>
+				<a href="#toy"><img src="midias/infantil/toy.png" alt="Toy Story"></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!--INICÍO DAS INFORMAÇÕES DOS FILMES-->
+    <div class="box-infos1" id="detona">
+        <p id="titulo">Detona Ralph</p>
+        <div class="center">
+            <img src="midias/infantil/img-ldetona.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MsoG4LnjhL0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Ralph está cansado de ser desprezado no seu próprio jogo de fliperama. Para ganhar a atenção do herói Felix e todos os outros personagens, o vilão tem um plano e sai em busca de uma medalha, com a intenção de provar o seu valor.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="divertida">
+        <p id="titulo">Divertidamente</p>
+        <div class="center">
+            <img src="midias/infantil/img-divertida.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LSpeM7G4zfY"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Com a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de idade, ficam extremamente agitadas. Uma confusão na sala de controle do seu cérebro deixa a Alegria e a Tristeza de fora, afetando a vida de Riley radicalmente.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="frozen">
+        <p id="titulo">Frozen</p>
+        <div class="center">
+            <img src="midias/infantil/img-frozen.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EBEbqLvrf7w"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Acompanhada por um vendedor de gelo, a jovem e destemida princesa Anna parte em uma jornada por perigosas montanhas de gelo na esperança de encontrar sua irmã, a rainha Elsa, e acabar com a terrível maldição de inverno eterno, que está provocando o congelamento do reino.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="rei">
+        <p id="titulo">Rei Leão</p>
+        <div class="center">
+            <img src="midias/infantil/img-rei.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rHiHRhbTv-Q"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Este desenho animado da Disney mostra as aventuras de um leão jovem de nome Simba, o herdeiro de seu pai, Mufasa. O tio malvado de Simba, Oscar, planeja roubar o trono de Mufasa atraindo pai e filho para uma emboscada. Simba consegue escapar e somente Mufasa morre. Com a ajuda de seus amigos,Timon e Pumba, ele reaparece como adulto para recuperar sua terra, que foi roubada por seu tio Oscar.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="shrek">
+        <p id="titulo">Shrek</p>
+        <div class="center">
+            <img src="midias/infantil/img-shrek.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cvf19P42sNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Era uma vez um pântano distante, onde vivia um ogro chamado Shrek. De repente, seu sossego é interrompido pela invasão de personagens de contos de fadas que foram banidos de seu reino pelo maldoso Lorde Farquaad. Determinado a salvar o lar das pobres criaturas, e também o dele, Shrek faz um acordo com Farquaad e parte para resgatar a princesa Fiona. Resgatar a princesa pode não ser nada comparado com seu segredo profundo e sombrio.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="toy">
+        <p id="titulo">Toy Story</p>
+        <div class="center">
+            <img src="midias/infantil/-img-toy.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_8vw4UikKhg"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">O aniversário do garoto Andy está chegando e seus brinquedos ficam nervosos, temendo que ele ganhe novos brinquedos que possam substituí-los. Liderados pelo caubói Woody, o brinquedo predileto de Andy, eles recebem Buzz Lightyear, o boneco de um patrulheiro espacial, que logo passa a receber mais atenção do garoto. Com ciúmes, Woody tenta ensiná-lo uma lição, mas Buzz cai pela janela. É o início da aventura do caubói, que precisa resgatar Buzz para limpar sua barra com os outros brinquedos.</p>
+    </div>
+    <br><br><br>
+    <div class="center">
+        &copy; Talia
+    </div>
+    <br><br><br>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Drama</title>
+    <link rel="stylesheet" href="css/style-pags.css">
+    <script src="js/main.js"></script>
+</head>
+<!--BARRA DE NAVEGAÇÃO COM O SELECT-->
+<nav>
+    Selecione uma categoria de filmes: 
+    <select name="opçoes" id="opçoes" onchange="minhaFuncao(this.value)">
+        <option selected disabled >Selecione</option>
+        <option>Terror</option>
+        <option>Comédia</option>
+        <option>Ação</option>
+        <option>Drama</option>
+        <option>Romance</option>
+        <option>Aventura</option>
+        <option>Infantil</option>
+    </select>
+</nav>
+<!--CAPAS DO FILMES-->
+<body>
+    <h1>Filmes de Drama</h1>
+    <hr>
+    <p>Melhores filmes da categoria Drama:</p>
+    <div class="center">
+        <div class="capas">
+            <a href="#vidas"><img src="midias/drama/vidas.png" alt="Vidas que se encontram"></a>
+            <a href="#coiote"><img src="midias/drama/coiote.png" alt="O Coiote"></a>
+            <a href="#cela"><img src="midias/drama/cela.png" alt="Milagre na cela 7"></a>
+            <a href="#carta"><img src="midias/drama/carta.png" alt="Carta registrada"></a>
+            <a href="#escolha"><img src="midias/drama/escolha.png" alt="A Escolha"></a>
+            <a href="#carandiru"><img src="midias/drama/carandiru.png" alt="Carandiru"></a>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!--INICÍO DAS INFORMAÇÕES DOS FILMES-->
+    <div class="box-infos1" id="vidas">
+        <p id="titulo">Vidas que se encontram</p>
+        <div class="center">
+            <img src="midias/drama/img-vidas.png" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-28iXZn5oLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Um bem-sucedido homem de família sofre de Alzheimer e, quando foge de casa, se perde um dia antes do Dia de Ação de Graças. Ele é resgatado por uma garota que vive nas ruas e o encontro mudo suas vidas para sempre.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="coiote">
+        <p id="titulo">O Coiote</p>
+        <div class="center">
+            <img src="midias/drama/img-coiote.png" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rV5p_eztKXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Um pescador das Bahamas, viciado em jogos de azar em Nassau, arranja um emprego contrabandeando haitianos para a Flórida, numa manobra desesperada para sustentar a família.</p>
+    </div>
+    <br>
+    <div class="box-infos1" id="cela">
+        <p id="titulo">Milagre na Cela 7</p>
+        <div class="center">
+            <img src="midias/drama/img-cela.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kipVc36vCTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Memo, um pastor de ovelhas com deficiência mental, vive com sua filha e avó em uma vila na costa turca do mar Egeu. Um dia, sua vida é virada de cabeça para baixo quando a filha do comandante morre e Memo é acusado do assassinato e condenado à morte.
+        </p>
+    </div>
+    <br>
+    <div class="box-infos1" id="carta">
+        <p id="titulo">Carta Registrada</p>
+        <div class="center">
+            <img src="midias/drama/img-carta.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DQx4RjzWTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Lidando com a maternidade recente, a morte do pai e a prisão do marido, Hala enfrenta uma luta solitária contra seus pensamentos sombrios. Um dia, ela encontra uma carta misteriosa que, quando aberta, lhe oferece uma nova perspectiva sobre a vida.
+        </p>
+    </div>
+    <br>
+    <div class="box-infos1" id="escolha">
+        <p id="titulo">A Escolha</p>
+        <div class="center">
+            <img src="midias/drama/img-escolha.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jyy2EA3oY1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Numa manhã de sábado, Erik, trabalhador da construção civil, recebe a notícia de que sua ex-namorada, Moonika, está prestes a entrar em trabalho de parto. Ela, no entanto, não está pronta para a maternidade, e agora Erik deve decidir se fica com a criança ou se a leva para adoção.
+        </p>
+    </div>
+    <br>
+    <div class="box-infos1" id="carandiru">
+        <p id="titulo">Carandiru</p>
+        <div class="center">
+            <img src="midias/drama/img-carandiru.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BdLvrNz9tUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Médico sanitarista se oferece para realizar o trabalho de prevenção ao vírus HIV no Carandiru, maior presídio da América Latina, durante a década de 1990. Convivendo diariamente com a dura realidade dos detentos, ele presencia a violência agravada pela superlotação, a precariedade dos serviços prestados e a animalização dos presos. Paradoxalmente, ele conhece o sistema de organização interna e o lado frágil, romântico e sonhador dos homens cumprindo pena.</p>
+    </div>
+    <br><br><br>
+    <div class="center">
+        &copy; Talia
+    </div>
+    <br><br><br>
+</body>
+</html>

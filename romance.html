@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Romance</title>
+    <link rel="stylesheet" href="css/style-pags.css">
+    <script src="js/main.js"></script>
+</head>
+<!--BARRA DE NAVEGAÇÃO COM O SELECT-->
+<nav>
+    Selecione uma categoria de filmes: 
+    <select name="opçoes" id="opçoes" onchange="minhaFuncao(this.value)">
+        <option selected disabled >Selecione</option>
+        <option>Terror</option>
+        <option>Comédia</option>
+        <option>Ação</option>
+        <option>Drama</option>
+        <option>Romance</option>
+        <option>Aventura</option>
+        <option>Infantil</option>
+    </select>
+</nav>
+<!--CAPAS DO FILMES-->
+<body>
+    <h1>Filmes de Romance</h1>
+    <hr>
+    <p>Melhores filmes da categoria Romance:</p>
+    <div class="center">
+        <div class="capas">
+            <a href="#lago"><img src="midias/romance/lago.png" alt=""></a>
+            <a href="#500"><img src="midias/romance/500.png" alt=""></a>
+            <a href="#melhor"><img src="midias/romance/melhor.png" alt=""></a>
+            <a href="#porto"><img src="midias/romance/porto.png" alt=""></a>
+            <a href="#simplesmente"><img src="midias/romance/simplesmente.png" alt=""></a>
+            <a href="#antes"><img src="midias/romance/antes.png" alt=""></a>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!--INICÍO DAS INFORMAÇÕES DOS FILMES-->
+    <!--FILME 1-->
+    <div class="box-infos1" id="lago">
+        <p id="titulo">A Casa do Lago</p>
+        <div class="center">
+            <img src="midias/romance/img-lago.png" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fQ5lPbssHS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Uma médica solitária vai morar numa linda casa na beira de um lago, apaixona-se por um arquiteto frustrado, que troca de bilhetes com ela pela caixa de correio da casa onde ela mora. Quando eles descobrem que estão vivendo no mesmo dia, mas com dois anos de diferença, eles resolvem desafiar o tempo e tentam descobrir qual é o mistério atrás do incrível romance deles</p>
+    </div>
+    <br>
+    <!--FILME 2-->
+    <div class="box-infos1" id="500">
+        <p id="titulo">500 dias com ela</p>
+        <div class="center">
+            <img src="midias/romance/img-500.png" alt="" class="img-infos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A27j7BEPxEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Um romântico escritor se surpreende quando sua namorada Summer termina o namoro repentinamente. Com isso, ele relembra vários momentos dos 500 dias que passaram juntos para tentar descobrir onde seu caso de amor se perdeu e vai redescobrindo suas verdadeiras paixões.</p>
+    </div>
+    <br>
+    <!--FILME 3-->
+    <div class="box-infos1" id="melhor">
+        <p id="titulo">O Melhor de Mim</p>
+        <div class="center">
+            <img src="midias/romance/img-melhor.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_K_qbjm97tY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Amanda e Dawson se apaixonaram perdidamente na primavera 1964. Ela, uma garota bonita e de família tradicional, via no namorado um porto seguro para toda a sua paixão e seu espírito livre. Separados pelo destino, cada um seguiu o seu caminho até que, após 20 anos, um encontro inesperado traz à tona sentimentos que estavam perdidos no passado..
+        </p>
+    </div>
+    <br>
+    <!--FILME 4-->
+    <div class="box-infos1" id="porto">
+        <p id="titulo">Um Porto Seguro </p>
+        <div class="center">
+            <img src="midias/romance/img-porto.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/awUlyiRKQYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Uma mulher misteriosa se muda para uma pequena cidade e recomeça sua vida. Apesar da moça estar determinada a não formar laços afetivos na nova cidade, ela não consegue cumprir esse objetivo e acaba levantando questionamentos sobre seu passado, que esconde um terrível segredo que continua assombrando a sua vida.
+        </p>
+    </div>
+    <br>
+    <!--FILME 5-->
+    <div class="box-infos1" id="simplesmente">
+        <p id="titulo">Simplesmente Acontece</p>
+        <div class="center">
+            <img src="midias/romance/img-simplesmente.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tRY9A7ZoAqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">Alex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA. Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas.
+        </p>
+    </div>
+    <br>
+    <!--FILME 6-->
+    <div class="box-infos1" id="antes">
+        <p id="titulo">Como era Antes de Você</p>
+        <div class="center">
+            <img src="midias/romance/img-antes.png" alt="" class="img-infos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PnqUs3xiAVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p id="sinopse">De origem modesta e sem grandes aspirações, a peculiar Louisa Clark é contratada para ser cuidadora de Will, um jovem tetraplégico depressivo e cínico.</p>
+    </div>
+    <br><br><br>
+    <div class="center">
+        &copy; Talia
+    </div>
+    <br><br><br>
+</body>
+</html>
